@@ -31,7 +31,7 @@ public class ObservableScrollView extends ScrollView implements ObservableScroll
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
         super.onScrollChanged(l, t, oldl, oldt);
         if (mOnScrollChangedListener != null) {
-            mOnScrollChangedListener.onScroll(l, t);
+            mOnScrollChangedListener.onScroll(t);
         }
     }
 

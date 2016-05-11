@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+    defaultConfig {
+        applicationId "gal.agasol.librecon"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 12
+        versionName "1.2"
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java', 'src/main/java-gen']
+            res.srcDirs = ['src/main/res']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFile 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':libraries:FadingActionBar')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.nvanbenschoten.motion:library:1.0.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.5.0'
+    compile 'de.greenrobot:greendao:1.3.7'
+    compile 'joda-time:joda-time:2.8.2'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.github.castorflex.smoothprogressbar:library:1.1.0'
+}

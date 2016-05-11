@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibreCon</string>
+
+    <!-- Navigation Drawer -->
+    <string name="title_schedule">Axenda</string>
+    <string name="title_search">Asistentes</string>
+    <string name="title_places">Ubicacións</string>
+    <string name="title_sponsors">Patrocinadores</string>
+    <string name="title_photocall">PhotoCall</string>
+    <!-- AB Actions -->
+    <string name="action_settings">Axustes</string>
+    <string name="action_logout">Saír</string>
+    <string name="action_about">Acerca de</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="title_activity_code">Código</string>
+    <!-- CodeActivity -->
+    <string name="user_code">Código de acceso</string>
+    <string name="user_email">Email</string>
+    <!-- Common Texts -->
+    <string name="dia_11">Día 29</string>
+    <string name="dia_12">Día 30</string>
+    <string name="search">Procurar</string>
+    <string name="search_hint">Ex: Asier Fernandez</string>
+    <string name="speaker">Relatores:</string>
+    <string name="links">Ligazóns:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Gardar</string>
+    <string name="accept">Aceptar</string>
+    <string name="discard">Rexeitar</string>
+    <string name="see_more">Ver máis</string>
+    <string name="request">Solicitar</string>
+    <string name="welcome">Dámosche a benvida a LibreCon</string>
+    <string name="guest">Convidado</string>
+    <string name="enter">Entrar</string>
+    <string name="resend_code">reenviar código</string>
+    <string name="send">Enviar</string>
+    <string name="back">Voltar</string>
+    <!-- Meeting status -->
+    <string name="meeting_pending_status"><![CDATA[Estado: <font color=“#ff8800”> Pendente</font>]]></string>
+    <string name="meeting_accepted_status"><![CDATA[Estado: <font color=“#99cc00”> Aceptada</font>]]></string>
+    <string name="meeting_canceled_status"><![CDATA[Estado: <font color=“#ff4444”> Rexeitada</font>]]></string>
+    <string name="meeting_phone">teléfono</string>
+    <string name="meeting_email">email</string>
+    <string name="meeting_shared_info">Datos compartidos</string>
+    <string name="meeting_now">Agora mesmo</string>
+    <string name="meeting_half">Media hora</string>
+    <string name="meeting_one">Unha hora</string>
+    <string name="meeting_point">Onde: Meeting point</string>
+    <!-- Meetings list -->
+    <string name="from">Solicitante: %1$s</string>
+    <string name="from_you">Solicitante: Ti</string>
+    <string name="to">Para: %1$s</string>
+    <string name="to_you">Para: Ti</string>
+    <string name="created_at">Data de creación: %1$s</string>
+    <string name="responded_at">Data de resposta: %1$s</string>
+    <string name="now">Cando: Agora</string>
+    <string name="half">Cando: En media hora</string>
+    <string name="hour">Cando: Nunha hora</string>
+    <string name="empty_meetings">Arredemo!\n\nNon tes ningunha reunión.\nVisita os perfís dos asistentes e solicita reunións con aqueles que che resulten de interés.</string>
+    <!-- Meeting details -->
+    <string name="moment_config">Reunirse en:</string>
+    <string name="moment_responded_at">Data de resposta:</string>
+    <string name="moment_created_at">Data de creación:</string>
+    <string name="info_config">Queres compartir algunha información?</string>
+    <string name="info_phone">Teléfono</string>
+    <string name="info_email">Email</string>
+    <string name="reject">Rexeitar</string>
+    <string name="shared_info">Datos compartidos: %1$s</string>
+    <string name="accepted">Aceptada</string>
+    <!-- Schedules -->
+    <string name="schedule_day_one">Xov 29, %1$s - %2$s</string>
+    <string name="schedule_day_two">Ven 30, %1$s - %2$s</string>
+    <!-- Profile -->
+    <string name="profile_info">Información:</string>
+    <string name="profile_links">Ligazóns:</string>
+    <string name="profile_tags">Tags:</string>
+    <string name="send_request">Solicitar reunión</string>
+    <string name="profile_interest">Ten interese en:</string>
+    <string name="request_sent">Invitación enviada</string>
+    <!-- Screen names -->
+    <string name="title_activity_schedule_detail">Detalle do evento</string>
+    <!-- Dialog Request meeting -->
+    <string name="dialog_title">Solicitar reunión</string>
+    <string name="dialog_message">Desexas solicitar unha reunión con %1$s?</string>
+    <!-- Places view -->
+    <string name="expositor">expositor</string>
+    <string name="title_activity_login_pager">LoginPagerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Status Code -->
+    <string name="http_500">Houbo un problema ao conectarse ao servidor. Inténtao de novo máis tarde</string>
+    <string name="http_error">Houbo un problema. Comproba que os datos son correctos o inténtao de novo máis tarde</string>
+    <string name="http_200_resend_code">Petición recibida con éxito. Mandarémosche o código ao teu email o antes posible.</string>
+    <string name="http_406_meetings">Tes unha petición de reunión pendente con esta persoa.
+        \n\nPoderás volver a solicitar unha reunión cando esta persoa acepte ou rexeite a petición actual.</string>
+    <!-- Tutorials -->
+    <string name="resend_tutorial">Introduce o teu email e reenviarémosche o código que corresponda co teu usuario rexistrado.</string>
+    <string name="tutorial">Para poder acceder á aplicación é necesario introducir o código que aparece no email que che enviamos antes do comezo do evento. Se non dispoñes dun podes entrar como invitado ou rexistrarte como asistente na web de LibreCon.</string>
+    <string name="tutorial_again">Arredemo! Parece ser que atopaches unha parte da aplicación que
+    precisa dun código para poder usarse.\n\nSe te rexistraches na web para asistir á LibreCon
+    deberías ter o código na conta de correo electrónico, do contrario, inscríbete na web.
+    ¡É rápido e sinxelo!</string>
+    <string name="organized_by">é un evento organizado por: </string>
+    <string name="designed_and_developed_by">Aplicación móbil deseñada e desenvolvida por</string>
+    <string name="modified_by">Modificada por </string>
+
+
+</resources>

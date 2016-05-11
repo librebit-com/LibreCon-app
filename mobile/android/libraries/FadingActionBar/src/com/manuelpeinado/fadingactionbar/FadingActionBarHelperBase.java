@@ -252,7 +252,7 @@ public abstract class FadingActionBarHelperBase {
     }
 
     private OnScrollChangedCallback mOnScrollChangedListener = new OnScrollChangedCallback() {
-        public void onScroll(int l, int t) {
+        public void onScroll(int t) {
             onNewScroll(t);
         }
     };
@@ -334,7 +334,7 @@ public abstract class FadingActionBarHelperBase {
     }
 
     private void updateHeaderHeight(int headerHeight) {
-        ViewGroup.LayoutParams params = (ViewGroup.LayoutParams) mMarginView.getLayoutParams();
+        ViewGroup.LayoutParams params = mMarginView.getLayoutParams();
         params.height = headerHeight;
         mMarginView.setLayoutParams(params);
         if (mListViewBackgroundView != null) {

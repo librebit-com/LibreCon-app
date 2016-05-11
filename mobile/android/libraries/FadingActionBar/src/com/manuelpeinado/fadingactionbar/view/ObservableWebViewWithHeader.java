@@ -108,7 +108,7 @@ public class ObservableWebViewWithHeader extends WebView implements ObservableSc
            title.offsetLeftAndRight(l - title.getLeft());
 
         if (mOnScrollChangedCallback != null)
-            mOnScrollChangedCallback.onScroll(l, t);
+            mOnScrollChangedCallback.onScroll(t);
     }
 
     public OnScrollChangedCallback getOnScrollChangedCallback() {
